@@ -1,0 +1,88 @@
+# ============================================
+# Compiled Java / Maven artifacts
+# ============================================
+target/
+**/target/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven specific
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper-definitions/
+
+# Don't ignore Maven Wrapper binary if present
+!/.mvn/wrapper/maven-wrapper.jar
+!/**/.mvn/wrapper/maven-wrapper.jar
+
+# ============================================
+# Log files & diagnostics
+# ============================================
+*.log
+logs/
+**/logs/
+
+# ============================================
+# IDEs and Code Editors
+# ============================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbproject/package-info.java
+
+# ============================================
+# Operating System files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# Docker & local environment
+# ============================================
+.docker/
+docker-compose.override.yml
+.env.local

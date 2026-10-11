@@ -1,0 +1,17 @@
+target/
+*.jar
+*.war
+*.log
+logs/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
